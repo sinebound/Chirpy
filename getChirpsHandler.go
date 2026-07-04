@@ -5,7 +5,7 @@ import (
 	"slices"
 
 	"github.com/google/uuid"
-	"github.com/thingammabob/chirpy/internal/database"
+	"github.com/sinebound/chirpy/internal/database"
 )
 
 func (cfg *apiConfig) getChirpsHandler(resWriter http.ResponseWriter, r *http.Request) {

@@ -6,8 +6,8 @@ import (
 	"time"
 
 	"github.com/google/uuid"
-	"github.com/thingammabob/chirpy/internal/auth"
-	"github.com/thingammabob/chirpy/internal/database"
+	"github.com/sinebound/chirpy/internal/auth"
+	"github.com/sinebound/chirpy/internal/database"
 )
 
 type User struct {

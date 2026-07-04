@@ -1,4 +1,4 @@
-module github.com/thingammabob/chirpy
+module github.com/sinebound/chirpy
 
 go 1.26.3
 

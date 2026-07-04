@@ -3,7 +3,7 @@ package main
 import (
 	"net/http"
 
-	"github.com/thingammabob/chirpy/internal/auth"
+	"github.com/sinebound/chirpy/internal/auth"
 )
 
 func (cfg *apiConfig) revokeRefreshTokenHandler(w http.ResponseWriter, r *http.Request) {

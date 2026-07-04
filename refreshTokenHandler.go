@@ -4,7 +4,7 @@ import (
 	"net/http"
 	"time"
 
-	"github.com/thingammabob/chirpy/internal/auth"
+	"github.com/sinebound/chirpy/internal/auth"
 )
 
 func (cfg *apiConfig) refreshTokenHandler(resWriter http.ResponseWriter, r *http.Request) {

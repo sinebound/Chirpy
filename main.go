@@ -9,7 +9,7 @@ import (
 
 	"github.com/joho/godotenv"
 	_ "github.com/lib/pq"
-	"github.com/thingammabob/chirpy/internal/database"
+	"github.com/sinebound/chirpy/internal/database"
 )
 
 type apiConfig struct {

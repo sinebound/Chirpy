@@ -4,7 +4,7 @@ import (
 	"net/http"
 
 	"github.com/google/uuid"
-	"github.com/thingammabob/chirpy/internal/auth"
+	"github.com/sinebound/chirpy/internal/auth"
 )
 
 func (cfg *apiConfig) deleteChirpHandler(resWriter http.ResponseWriter, r *http.Request) {
